@@ -1,0 +1,85 @@
+html,
+body{
+	height: 100%;
+}
+
+
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+}
+
+
+
+form,
+ul{
+	width: 40%;
+	margin: 0 auto;
+	padding-bottom: 150px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	padding:30px;
+}
+#user_login form{
+	width: 250px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.main_menu_link ul{
+	width: 100%;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.main_menu_link ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.container input,
+select,
+textarea{
+	float: right;
+}
+
+.container{
+	padding: 0;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.container header{
+	text-align: center;
+}
+
+.container p{
+	padding: 10px 0;
+}
+.delete_menu{
+	text-align: center;
+}
+
+#fixedLogo{
+	width: 300px;
+	height: 300px;
+	position: initial;
+	margin: 20px auto;
+	z-index: 99;
+	background: url(../img/logobg.png) no-repeat left top;
+}
+
+.logo_content{
+	padding-top: 75px;
+	text-align: center;
+	color: white;
+}
+
